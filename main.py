@@ -90,7 +90,6 @@ def get_args_parser():
 def main(args):
     utils.init_distributed_mode(args)
     print("git:\n  {}\n".format(utils.get_sha()))
-    print(args)
 
     device = torch.device(args.device)
 
@@ -113,7 +112,7 @@ def main(args):
         dataset_val = build_dataset(image_set='val', args=args)
     else:
         dataset_test = build_dataset(image_set='test', args=args)
-    
+
     # build model
     model, criterion = build_model(args)
     model.to(device)

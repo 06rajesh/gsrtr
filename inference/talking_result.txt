@@ -1,0 +1,4 @@
+verb: phoning 
+role: agent, noun: woman.n.01 
+role: tool, noun: telephone.n.01 
+role: place, noun: outside.n.01 

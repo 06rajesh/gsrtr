@@ -1,0 +1,4 @@
+verb: pedaling 
+role: agent, noun: people.n.01 
+role: vehicle, noun: bicycle.n.01 
+role: place, noun: street.n.01 

@@ -1,0 +1,7 @@
+verb: cooking 
+role: agent, noun: man.n.01 
+role: food, noun: 'blank' 
+role: container, noun: pot.n.01 
+role: heatsource, noun: stove.n.01 
+role: tool, noun: spoon.n.01 
+role: place, noun: kitchen.n.01 
